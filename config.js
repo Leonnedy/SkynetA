@@ -1,4 +1,4 @@
-global.owner = ['6281515860089', '6281334177340'] // 8292097057
+global.owner = ['18292097057'] // 8292097057
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -20,8 +20,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'I hope you\'re fine'
-global.author = 'Nurutomo'
+global.packname = 'Skynet revenge'
+global.author = 'Dou tremendo nombre de pelicula'
 
 global.multiplier = 69 // The higher, The harder levelup
 
