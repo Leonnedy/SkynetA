@@ -2,20 +2,17 @@
 
 Simple WhatsApp Bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
-
-## FOR TERMUX/UBUNTU/SSH USER
+## FOR TERMUX USER
 
 ```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
+> pkg update && pkg upgrade
+> pkg install git -y
+> pkg install nodejs -y
+> pkg install ffmpeg -y
+> pkg install imagemagick -y
+> git clone https://github.com/Nurutomo/wabot-aq
+> cd wabot-aq
+> npm install
 ```
 
 ---------
@@ -24,14 +21,13 @@ npm update
 
 * Download And Install Git [`Click Here`](https://git-scm.com/downloads)
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
+* Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path)
+* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```bash
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
+> git clone https://github.com/Nurutomo/wabot-aq
+> cd wabot-aq
+> npm install
 ```
 
 ---------
@@ -39,7 +35,7 @@ npm update
 ## Run
 
 ```bash
-node .
+> node . [<session name>] (session name is optional)
 ```
 
 ---------
@@ -50,18 +46,6 @@ node .
 
 Activate self mode (Ignores other)
 
-### `--pconly`
-
-If that chat not from private bot, bot will ignore
-
-### `--gconly`
-
-If that chat not from group, bot will ignore
-
-### `--swonly`
-
-If that chat not from status, bot will ignore
-
 ### `--prefix <prefixes>`
 
 * `prefixes` are seperated by each character
@@ -70,34 +54,6 @@ Set prefix
 ### `--server`
 
 Used for [heroku](https://heroku.com/) or scan through website
-
-### `--db <json-server-url>`
-
-Use external db instead of local db, 
-Example Server `https://json-server.nurutomo.repl.co/`
-Code: `https://repl.it/@Nurutomo/json-server`
-
-`node . --db 'https://json-server.nurutomo.repl.co/'`
-
-The server should have like this specification
-
-#### GET
-
-```http
-GET /
-Accept: application/json
-```
-
-#### POST
-
-```http
-POST /
-Content-Type: application/json
-
-{
- data: {}
-}
-```
 
 ### `--big-qr`
 
@@ -112,10 +68,6 @@ Enables restricted plugins (which can lead your number to be **banned** if used 
 ### `--img`
 
 Enable image inspector through terminal
-
-### `--autoread`
-
-If enabled, all incoming messages will be marked as read
 
 ### `--nyimak`
 
@@ -139,10 +91,6 @@ conn.logger.level = 'debug'
 
 ---------
 
-<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Ftwrr](https://github.com/Ftwrr.png?size=100)](https://github.com/Ftwrr) 
-----|----|----|----
-[XTEAM](https://api.xteam.xyz/) | [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Ftwrr](https://github.com/Ftwrr)
-Powered by XTEAM | Author / Creator | Most Active Contributor | 2nd Most Active Contributor
+#### Powered By : [`XTEAM`](https://api.xteam.xyz)
 
-
-NOTE: This project will not maintained after `27 June 2021`, that means no update. Feel free to anyone to continue this project :)
+#### Author / Creator : [`Nurutomo`](https://GitHub.com/Nurutomo)

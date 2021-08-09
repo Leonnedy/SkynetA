@@ -1,27 +1,19 @@
-global.owner = ['18292097057'] // 8292097057
+global.owner = ['14254419777'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
-  xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  zeks: 'https://api.zeks.xyz',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  xteam: 'https://api.xteam.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://api.xteam.xyz': 'd90a9e986e18778b'
 }
 
 // Sticker WM
-global.packname = 'Skynet revenge'
-global.author = 'Dou tremendo nombre de pelicula'
+global.packname = 'Sus stickers\'son NUESTROS stickers'
+global.author = 'Leo el oreo jsjsjs'
 
 global.multiplier = 69 // The higher, The harder levelup
 
